@@ -55,8 +55,13 @@ public class PlayerController : MonoBehaviour
 
     void OnFire(InputValue value)
     {
-        Cubeton cubeTon = pool.Get();
-        SetupCubetonPosition(cubeTon);
+        Energy energy = GetComponent<Energy>();
+        if (energy.GetEnergyPoints() >= 10f)
+        {
+            energy.ConsumeEnergy(10f);
+            Cubeton cubeTon = pool.Get();
+            SetupCubetonPosition(cubeTon);
+        }
     }
 
     private void SetupCubetonPosition(Cubeton cubeTon)

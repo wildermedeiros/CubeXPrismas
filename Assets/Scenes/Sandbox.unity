@@ -402,6 +402,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1442394083972046233, guid: 24f2a3c3e774cc345890e3a724c64931, type: 3}
   m_PrefabInstance: {fileID: 1433225348}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &497348728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4408613939327516021, guid: d2da5bc59afba164bb9d8c17e407f937, type: 3}
+  m_PrefabInstance: {fileID: 4408613939503370814}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &704447291
 Mesh:
   m_ObjectHideFlags: 0
@@ -1095,7 +1100,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.9501915, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1142,6 +1147,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4408613939327516016, guid: d2da5bc59afba164bb9d8c17e407f937, type: 3}
   m_PrefabInstance: {fileID: 4408613939503370814}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &983347023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497348728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339ff3756bb46cd49a5c2894f1c92888, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingEnergyPoints: 100
+  energyPoints: 0
 --- !u!4 &1017816302 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1442394083972046233, guid: 24f2a3c3e774cc345890e3a724c64931, type: 3}
